@@ -5,18 +5,18 @@ import image from "../../../public/image.png";
 import Image from "next/image";
 
 export default function Home() {
-  const handleClick = () => {
-      window.location.href = "/clashgg-connecting"; 
-  }
+  // const handleClick = () => {
+  //     window.location.href = "/clashgg-connecting"; 
+  // }
 
   return (
     <div
       // onMouseMove={handleClick}
-      onClick={handleClick}
+      // onClick={handleClick}
     >
       <main className={styles.main}>
         <h3 className={styles.text}>
-           Clash GG Official Site{""}
+            Official Site{""}
           <span
             style={{ transform: "translate(0px)", display: "inline-block" }}
           >
@@ -28,7 +28,6 @@ export default function Home() {
         </p>
         <p className={styles.text3}>
           We needs to review the security of your connection before proceeding
-          Clash GG
         </p>
         <div style={{ marginTop: 30, position: "relative" }}>
           <Image src={image} alt="Logo" className={styles.image2} />

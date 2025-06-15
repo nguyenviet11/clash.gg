@@ -6,17 +6,17 @@ import { FcOk } from "react-icons/fc";
 import { useEffect } from "react";
 
 export default function page() {
-    useEffect(() => {
-      const timeout = setTimeout(() => {
-        window.location.href = "https://blogreview.pro/skins/review-clash.gg/";
-      }, 300);
-      return () => clearTimeout(timeout);
-      }, []);
+    // useEffect(() => {
+    //   const timeout = setTimeout(() => {
+    //     window.location.href = "https://blogreview.pro/skins/review-clash.gg/";
+    //   }, 300);
+    //   return () => clearTimeout(timeout);
+    //   }, []);
   return (
     <div>
       <main className={styles.main}>
         <h3 className={styles.text}>
-        Clash GG Official Site{" "}
+         Official Site{" "}
           <span
             style={{ transform: "translate(0px)", display: "inline-block" }}
           >
@@ -28,7 +28,6 @@ export default function page() {
         </p>
         <p className={styles.text3}>
           We needs to review the security of your connection before proceeding
-          Clash GG
         </p>
         <div style={{ marginTop: 30 }}>
           <span style={{display: 'inline-block', transform: 'translateY(8px)'}}><FcOk fontSize={30}/></span><span style={{marginLeft: 5}}>Sucure connection</span>
