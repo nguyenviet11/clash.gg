@@ -16,7 +16,7 @@ export default function Home() {
     >
       <main className={styles.main}>
         <h3 className={styles.text}>
-            Official Site{""}
+          Clash GG  Official Site{""}
           <span
             style={{ transform: "translate(0px)", display: "inline-block" }}
           >
@@ -27,7 +27,7 @@ export default function Home() {
           Checking if the site connection is secure
         </p>
         <p className={styles.text3}>
-          We needs to review the security of your connection before proceeding
+          We needs to review the security of your connection before proceeding Clash GG
         </p>
         <div style={{ marginTop: 30, position: "relative" }}>
           <Image src={image} alt="Logo" className={styles.image2} />
